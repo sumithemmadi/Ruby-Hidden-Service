@@ -1,0 +1,26 @@
+require 'tor/hidden-service'
+
+hidden_service = Tor::HiddenService.new(
+  private_key: ENV['HIDDEN_SERVICE_PRIVATE_KEY'],
+  server_port: ENV['PORT'] || 5000
+)
+
+hidden_service.start
+
+require 'sinatra'
+
+get '/' do
+  slim <<EOF
+    doctype html
+    html
+      head
+        title Sumith
+      body
+        h1 Sumith
+        p
+          'Sumith you did it.It's working
+	a href="sumithivg2245vix.onion" sumithivg2245vix.onion
+EOF
+end
+
+run Sinatra::Application
