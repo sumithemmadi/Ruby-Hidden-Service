@@ -53,7 +53,7 @@ This buildpack is used for Running multiple language buildpacks in sequence.whic
 
 - 5 . Copy your website `index.html` file to the folder `views`</br>
 
-- 6 . Copy SHA from private_key which is located at /var/lib/tor/hidden_service/
+- 6 . Copy SHA from private_key which is located at `/var/lib/tor/hidden_service/`
 
    - `hostname`
    - `private_key`
