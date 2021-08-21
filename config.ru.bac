@@ -10,17 +10,7 @@ hidden_service.start
 require 'sinatra'
 
 get '/' do
-  slim <<EOF
-    doctype html
-    html
-      head
-        title Sumith
-      body
-        h1 Sumith
-        p
-          'Sumith you did it.It's working
-	a href="sumithivg2245vix.onion" sumithivg2245vix.onion
-EOF
+  echo it's working.
 end
 
 run Sinatra::Application
