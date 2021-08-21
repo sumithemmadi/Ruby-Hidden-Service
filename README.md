@@ -50,15 +50,17 @@ https://tor-hidden-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-multi.git
 ```
 - Add this buildpack to heroku.
-This buildpack is used to install packages like  `tor` and `nodejs` in heroku application which are mentioned in  `Aptfile` file.
+This buildpack is used for Running multiple language buildpacks in sequence.which are mentioned in  `Aptfile` file.
 
-- 5 . Copy your website `index.html` file to the folder `site`</br>
+- 5 . Copy your website `index.html` file to the folder `views`</br>
 
 - 6 . Copy the following files to `hidden` folder.</br> 
 
    - `hostname`
    - `private.key`
 
+- You can also edit config vars from your app’s Settings tab in the [Heroku Dashboard](https://dashboard.heroku.com):
+  [![image](https://devcenter1.assets.heroku.com/article-images/321-imported-1443570183-321-imported-1443554644-389-original.jpg)](https://dashboard.heroku.com)
 
 - If you don't know where these files stored refer to **[https://2019.www.torproject.org/docs/tor-onion-service](https://2019.www.torproject.org/docs/tor-onion-service)**
   
