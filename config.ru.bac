@@ -10,7 +10,7 @@ hidden_service.start
 require 'sinatra'
 
 get '/' do
-  echo it's working.
+  echo yeah it's working.
 end
 
 run Sinatra::Application
