@@ -49,7 +49,6 @@ https://tor-hidden-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor
 heroku buildpacks:set https://github.com/heroku/heroku-buildpack-multi.git
 ```
 - Add this buildpack to heroku.
-This buildpack is used for Running multiple language buildpacks in sequence.which are mentioned in  `Aptfile` file.
 
 - 5 . Copy your website `index.html` file to the folder `views`</br>
 
