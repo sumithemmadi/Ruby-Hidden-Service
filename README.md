@@ -3,7 +3,7 @@
 
 _Note: Tor is ending its support for version 2 (v2) Onion Services, and v2 onion sites have since been deprecated. Please refer to_ `tor v3` [Tor-Onion-Service-On-Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku).
 ### Prerequisites
-- 1 . `nodejs`
+- 1 . `ruby`
 - 2 . `tor`  _v2_
 - 3 . `php`
 - 4 . `git`
