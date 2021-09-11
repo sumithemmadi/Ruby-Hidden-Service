@@ -28,8 +28,8 @@ heroku login
 
 - 2 . Clone the repo with below command
 ```bash
-git clone https://github.com/sumithemmadi/Tor-Hidden-Service-On-Heroku.git
-cd Tor-Hidden-Service-On-Heroku
+git clone https://github.com/sumithemmadi/Tor-Hidden-Service.git
+cd Tor-Hidden-Service
 ```
 - 3 . Create a heroku application
 ```bash
