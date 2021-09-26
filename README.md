@@ -1,4 +1,4 @@
-## Tor-Hidden-Service-On-Heroku
+## Tor-Hidden-Service
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
 _Note: Tor is ending its support for version 2 (v2) Onion Services, and v2 onion sites have since been deprecated. Please refer to_ `tor v3` [Tor-Onion-Service-On-Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku).
