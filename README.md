@@ -14,9 +14,11 @@ _Note: Tor is ending its support for version 2 (v2) Onion Services, and v2 onion
 - 1 . Create an account on  **[https://heroku.com](https://heroku.com)**.
 - 2 . Install the Heroku CLI on your computer: <br/>**[https://devcenter.heroku.com/articles/heroku-cli](https://devcenter.heroku.com/articles/heroku-cli)**. 
 <br/>Check that you have the `heroku-cli` installed by checking the version number in your terminal:
+
 ```bash
 heroku --version
 ```
+
 - 3 . Connect the `Heroku CLI` to your account by writing the following command in your terminal and follow the instructions on the command line:
 ```bash
 heroku login
@@ -32,9 +34,11 @@ git clone https://github.com/sumithemmadi/Ruby-Hidden-Service.git
 cd Ruby-Hidden-Service
 ```
 - 3 . Create a heroku application
+
 ```bash
 heroku apps:create App-Name
 ```
+
 -  `heroku apps:create App-Name` this command creates the application as well as a git remote, that you can use to push your code to Heroku:
  
 -  _Note: replace `App-Name` with  any other name._
@@ -42,6 +46,7 @@ heroku apps:create App-Name
 $ heroku apps:create ruby-hidden-service
 Creating ⬢ ruby-hidden-service... done
 https://ruby-hidden-service.herokuapp.com/ | https://git.heroku.com/ruby-hidden-service.git
+```
 - 4 . Now enter the below command
 
 ```bash
