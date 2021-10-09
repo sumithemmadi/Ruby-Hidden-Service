@@ -83,12 +83,8 @@ git push heroku
 cat /var/lib/tor/hidden_service/hostname
 ```
 ### My app
-![IMAGE](/IMG_20210822_193557.jpg)
+
 -  **[https://ruby-hidden-service.herokuapp.com/](https://ruby-hidden-service.herokuapp.com/)**
     
 - Tor is ending its support for version 2 (v2) Onion Services. Please refer to `tor v3` 
 - GitHub Repo for `Tor onion service v3`:[https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku).
-
-<img src="https://sumith-onion.000webhostapp.com/home.php?w=100&repo=Ruby-Hidden-Service&branch=main">
-
-  
