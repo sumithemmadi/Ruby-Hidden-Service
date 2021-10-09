@@ -24,12 +24,12 @@ heroku login
 
 ### Quick Start
 
-- 1 . After installing `Heroku CLI` clone this repository.
+- 1 . After installing `Heroku CLI` clone this reposiRubyy.
 
 - 2 . Clone the repo with below command
 ```bash
-git clone https://github.com/sumithemmadi/Tor-Hidden-Service.git
-cd Tor-Hidden-Service
+git clone https://github.com/sumithemmadi/Ruby-Hidden-Service.git
+cd Ruby-Hidden-Service
 ```
 - 3 . Create a heroku application
 ```bash
@@ -39,10 +39,9 @@ heroku apps:create App-Name
  
 -  _Note: replace `App-Name` with  any other name._
 ```bash
-$ heroku apps:create tor-hidden-service-on-heroku
-Creating ⬢ tor-hidden-service-on-heroku... done
-https://tor-hidden-service-on-heroku.herokuapp.com/ | https://git.heroku.com/tor-hidden-service-on-heroku.git
-```
+$ heroku apps:create ruby-hidden-service
+Creating ⬢ ruby-hidden-service... done
+https://ruby-hidden-service.herokuapp.com/ | https://git.heroku.com/ruby-hidden-service.git
 - 4 . Now enter the below command
 
 ```bash
@@ -50,7 +49,7 @@ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-multi.git
 ```
 - Add this buildpack to heroku.
 
-- 5 . Copy your website `index.html` file to the folder `views`</br>
+- 5 . Copy your website `index.html` file to the folder `views` as `index.erb`</br>
 
 - 6 . Copy SHA from private_key which is located at `/var/lib/tor/hidden_service/`
 
@@ -60,14 +59,14 @@ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-multi.git
   
 
 - 7 .  Tor hidden services require  a private_key and it's SHA to generate  .onion name. You'll need to provide this as env vars.You can also edit config vars from your app’s Settings tab in the [Heroku Dashboard](https://dashboard.heroku.com):
-  [![image](https://raw.githubusercontent.com/sumithemmadi/Tor-Hidden-Service-On-Heroku/main/IMG_20210821_121319.jpg)](https://dashboard.heroku.com)
+  [![image](https://raw.githubusercontent.com/sumithemmadi/Ruby-Hidden-Service/main/configvar.jpg)](https://dashboard.heroku.com)
   - `HIDDEN_SERVICE_PRIVATE_KEY`: The contents of a private_key file
 
 
 - 8 . Deploy your changes to heroku
 ```bash
 git add .
-git commit -am "Tor hidden service"
+git commit -am "Ruby hidden service"
 git push heroku
 ```
 
@@ -79,11 +78,11 @@ cat /var/lib/tor/hidden_service/hostname
 ```
 ### My app
 ![IMAGE](/IMG_20210822_193557.jpg)
--  **[https://tor-hidden-service-on-heroku.herokuapp.com/](https://tor-hidden-service-on-heroku.herokuapp.com/)**
+-  **[https://ruby-hidden-service.herokuapp.com/](https://ruby-hidden-service.herokuapp.com/)**
     
 - Tor is ending its support for version 2 (v2) Onion Services. Please refer to `tor v3` 
 - GitHub Repo for `Tor onion service v3`:[https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku).
 
-<img src="https://sumith-onion.000webhostapp.com/home.php?w=100&repo=Tor-Hidden-Service&branch=main">
+<img src="https://sumith-onion.000webhostapp.com/home.php?w=100&repo=Ruby-Hidden-Service&branch=main">
 
   
