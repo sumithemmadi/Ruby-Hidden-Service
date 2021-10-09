@@ -64,8 +64,9 @@ heroku buildpacks:set https://github.com/heroku/heroku-buildpack-multi.git
   
 
 - 7 .  Tor hidden services require  a private_key and it's SHA to generate  .onion name. You'll need to provide this as env vars.You can also edit config vars from your app’s Settings tab in the [Heroku Dashboard](https://dashboard.heroku.com):
-  [![image](https://raw.githubusercontent.com/sumithemmadi/Ruby-Hidden-Service/main/configvar.jpg)](https://dashboard.heroku.com)
-  - `HIDDEN_SERVICE_PRIVATE_KEY`: The contents of a private_key file
+  - Open your app on heroku then click settings>config vars.
+   [![image](https://raw.githubusercontent.com/sumithemmadi/Ruby-Hidden-Service/main/configvar.jpg)](https://dashboard.heroku.com)
+  - Set config vars with `HIDDEN_SERVICE_PRIVATE_KEY`: The contents of a `private_key` file.
 
 
 - 8 . Deploy your changes to heroku
