@@ -1,7 +1,7 @@
 ## Tor-Hidden-Service
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
-[![Version](https://img.shields.io/badge/Version-1.0.2-blue)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
+[![Version](https://img.shields.io/badge/Version-1.0.3-blue)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
 [![Licence](https://img.shields.io/github/license/sumithemmadi/Ruby-Hidden-Service)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
 [![issues](https://img.shields.io/github/issues/sumithemmadi/Ruby-Hidden-Service)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
 [![stars](https://img.shields.io/github/stars/sumithemmadi/Ruby-Hidden-Service)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
