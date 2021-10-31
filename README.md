@@ -1,6 +1,12 @@
 ## Tor-Hidden-Service
 ![image](https://img.shields.io/badge/Heroku-430098?style=for-the-badge&logo=heroku&logoColor=white) ![image](https://img.shields.io/badge/Tor-7D4698?style=for-the-badge&logo=Tor-Browser&logoColor=white)
 
+[![Version](https://img.shields.io/badge/Version-1.0.2-blue)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
+[![Licence](https://img.shields.io/github/license/sumithemmadi/Ruby-Hidden-Service)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
+[![issues](https://img.shields.io/github/issues/sumithemmadi/Ruby-Hidden-Service)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
+[![stars](https://img.shields.io/github/stars/sumithemmadi/Ruby-Hidden-Service)](https://github.com/sumithemmadi/Ruby-Hidden-Service)
+
+
 _Note: Tor is ending its support for version 2 (v2) Onion Services, and v2 onion sites have since been deprecated. Please refer to_ `tor v3` [Tor-Onion-Service-On-Heroku](https://github.com/sumithemmadi/Tor-Onion-Service-On-Heroku).
 ### Prerequisites
 - 1 . `ruby`
